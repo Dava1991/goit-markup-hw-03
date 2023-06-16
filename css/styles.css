@@ -186,28 +186,23 @@ button:active {
 }
 
 .all {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #4d5ae5;
     cursor: pointer;
-    background-color: #404BBF;
-    color: #FFFFFF;
+    background-color: #F4F4FD;
 }
 
 .all:hover,
 .all:focus {
     cursor: pointer;
-    background-color: #4D5AE5;
     color: #FFFFFF;
-    text-decoration: underline;
-    text-decoration-color: violet;
+    background-color: #404BBF;
 }
 
-.all:active {
-    cursor: pointer;
-    background-color: #4D5AE5;
-    color: #FFFFFF;
-    text-decoration: underline;
-    text-decoration-color: violet;
-
-}
 
 
 
