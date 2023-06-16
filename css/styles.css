@@ -45,11 +45,21 @@ letter spacing: 2%;
     font size: 18px;
     line height: 1.17;
     letter-spacing: 0.03em;
-    text-transform: uppercase
+    text-transform: uppercase;
 }
 
 .stu {
     color: #2e2f42;
+}
+
+.stf {
+    color: #f4f4fd;
+}
+
+.pha {
+    line-height: 1.5;
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
 }
 
 .list {
@@ -85,11 +95,33 @@ letter spacing: 2%;
     color: #434455;
 }
 
+.sec {
+    background-color: #2e2f42;
+}
 
+.has {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
 
+.but {
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
 
+}
 
-
+.but:hover,
+.but:focus {
+    background-color: #404BBF;
+}
 
 
 button {
@@ -97,6 +129,41 @@ button {
  background-color: #F4F4FD;
  color: #4D5AE5;
 }
+
+.zag {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.par {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.zgg {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+
+.secn {
+    background-color: #F4F4FD;
+}
+
+.foo {
+    background-color:#2e2f42;
+}
+
+
 
 button:hover,
 button:focus {
@@ -113,7 +180,7 @@ button:active {
  color: #4D5AE5;
     text-decoration: underline;
     text-decoration-color: violet;
-    border-color: violet;
+
 }
 
 .all {
@@ -137,7 +204,7 @@ button:active {
     color: #FFFFFF;
     text-decoration: underline;
     text-decoration-color: violet;
-    border-color: violet;
+
 }
 
 
