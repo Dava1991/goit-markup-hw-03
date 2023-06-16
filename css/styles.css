@@ -15,16 +15,16 @@ body {
 
 h2 {
     font-size: 20px;
-line height: 24px;
-line height: 102%;
-letter spacing: 2%;
+line-height: 24px;
+line-height: 102%;
+letter-spacing: 2%;
 }
 
 p {
-font size: 16px;
-line height: 24px;
-line height: 128%;
-letter spacing: 2%;
+font-size: 16px;
+line-height: 24px;
+line-height: 128%;
+letter-spacing: 2%;
 }
 
 .link {
@@ -39,11 +39,11 @@ letter spacing: 2%;
 
 .link-logo {
     color: #4D5AE5;
-    font family: "Raleway" sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 800;
-    font style: ExtraBold;
-    font size: 18px;
-    line height: 1.17;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
