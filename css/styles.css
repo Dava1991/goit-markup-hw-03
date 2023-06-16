@@ -202,11 +202,3 @@ button:active {
     color: #FFFFFF;
     background-color: #404BBF;
 }
-
-
-
-
-.adress:hover,
-.adress:focus {
-    color: #4D5AE5;
-}
