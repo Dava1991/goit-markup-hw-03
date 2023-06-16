@@ -37,7 +37,7 @@ letter spacing: 2%;
 }
 
 
-.link-logo {
+.link .link-logo {
     color: #4D5AE5;
     font family: "Raleway" sans-serif;
     font-weight: 800;
@@ -74,8 +74,8 @@ letter spacing: 2%;
     color: #2e2f42;
 }
 
-.link-nav:hover,
-.link-nav:focus {
+.link .link-nav:hover,
+.link .link-nav:focus {
     color: #404bbf;
 }
 
@@ -88,7 +88,7 @@ letter spacing: 2%;
     list-style: none;
 }
 
-.link-ad {
+.link .link-ad {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -163,7 +163,9 @@ button {
     background-color:#2e2f42;
 }
 
-
+.pun {
+    background-color: #FFFFFF;
+}
 
 button:hover,
 button:focus {
