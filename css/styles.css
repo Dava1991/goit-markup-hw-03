@@ -1,0 +1,105 @@
+body {
+    font-family: 'Roboto' sans-serif;
+    color: #434455;
+}
+
+h3 {
+    font-size: 20px;
+line height: 24px;
+line height: 102%;
+align: left;
+vertical align: top;
+letter spacing: 2%;
+}
+
+p {
+font size: 16px;
+line height: 24px;
+line height: 128%;
+align: left;
+vertical align: top;
+letter spacing: 2%;
+}
+
+span {
+    color: #4D5AE5;
+    font family: 'Raleway' sans-serif;
+    font-weight: 800;
+    font style: ExtraBold;
+    font size: 18px;
+    line height: 21px;
+    line height: 99%;
+    align: Left;
+    vertical align: center;
+    letter spacing: 3%;
+}
+
+.textlogo {
+    color: #2E2F42;
+    font family: 'Raleway' sans-serif;
+    font-weight: 800;
+    font style: ExtraBold;
+    font size: 18px;
+    line height: 21px;
+    line height: 99%;
+    align: Left;
+    vertical align: Center;
+    letter spacing: 3%;
+}
+
+button {
+    cursor: pointer;
+ background-color: #F4F4FD;
+ color: #4D5AE5;
+}
+
+button:hover
+button:focus {
+    cursor: pointer;
+ background-color: #F4F4FD;
+ color: #4D5AE5;
+    text-decoration: underline;
+    text-decoration-color: violet;
+}
+
+button:active {
+    cursor: pointer;
+ background-color: #F4F4FD;
+ color: #4D5AE5;
+    text-decoration: underline;
+    text-decoration-color: violet;
+    border-color: violet;
+}
+
+.all {
+    cursor: pointer;
+    background-color: #404BBF;
+    color: #FFFFFF;
+}
+
+.all:hover
+.all:focus {
+    cursor: pointer;
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    text-decoration: underline;
+    text-decoration-color: violet;
+}
+
+.all:active {
+    cursor: pointer;
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    text-decoration: underline;
+    text-decoration-color: violet;
+    border-color: violet;
+}
+
+.adress {
+    color: #404BBF;
+}
+
+.adress:hover
+.adress:focus {
+    color: #4D5AE5;
+}
