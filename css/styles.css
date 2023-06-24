@@ -312,3 +312,9 @@ button:active {
     border: 1px solid #e7e9fc;
     border-top: none;
 }
+
+
+.visually-hidden {
+    position: fixed;
+    transform: scale(0);
+  }
