@@ -12,6 +12,28 @@ body {
     background-color: #ffffff;
 }
 
+.header {
+    border-bottom: 1px solid #e7e9fc;
+
+}
+
+.cont {
+    display: flex;
+}
+
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+
 .link {
     text-decoration: none;
 }
@@ -20,6 +42,11 @@ body {
 .link:focus {
     color: #404bbf;
 }
+
+img {
+    display: block;
+}
+
 
 
 .link-logo {
@@ -31,6 +58,7 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px;
 }
 
 .stu {
@@ -45,10 +73,29 @@ body {
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
+    max-width: 264px;
 }
 
 .list {
     list-style: none;
+}
+
+.listi {
+    display: flex;
+    gap: 40px;
+}
+
+.liss {
+    display: flex;
+    gap: 24px;
+}
+
+.lili {
+    width: calc((100% - 72px) / 4);
+}
+
+.lilit {
+    width: calc((100% - 48px) / 3);
 }
 
 .link-nav {
@@ -57,6 +104,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 24px 0;
 }
 
 .link-nav:hover,
@@ -69,19 +117,19 @@ body {
     font-style: normal;
 }
 
-.list {
-    list-style: none;
-}
 
 .link-ad {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    display: flex;
+    gap: 40px;
 }
 
 .sec {
     background-color: #2e2f42;
+    padding: 188px 0;
 }
 
 .has {
@@ -90,6 +138,7 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
+    max-width: 496px;
 }
 
 .but {
@@ -100,6 +149,16 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px; 
+    cursor: pointer;
+}
+
+.sect {
+    padding: 120px 0;
 
 }
 
@@ -121,7 +180,18 @@ button {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px; 
 }
+
+.zago {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.para {
+    text-align: center;
+}
+
 
 .paragraf {
     font-size: 16px;
@@ -130,6 +200,11 @@ button {
     color: #434455;
 }
 
+.sectio {
+    padding-bottom: 120px;
+}
+
+
 .zgg {
     font-size: 36px;
     line-height: 1.11;
@@ -137,19 +212,35 @@ button {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 
 
 .secn {
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
 
 .foo {
     background-color:#2e2f42;
+    padding: 100px 0;
 }
 
+.logolo {
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+
 .pun {
-    background-color: #FFFFFF;
+    background-color: #FFFFFF; 
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.employ {
+    padding: 32px 16px;
+
 }
 
 button:hover,
@@ -179,6 +270,9 @@ button:active {
     color: #4d5ae5;
     cursor: pointer;
     background-color: #F4F4FD;
+    padding: 12px 24px;
+    border: 1px solid #e7e9fc;
+    border-radius: 4px;
 }
 
 .all:hover,
@@ -186,4 +280,35 @@ button:active {
     cursor: pointer;
     color: #FFFFFF;
     background-color: #404BBF;
+    border: 1px solid transparent;
+}
+
+.secsec {
+    padding-top: 96px; 
+    padding-bottom: 120px;
+}
+
+.listik {
+    display: flex;
+    justify-content: center; 
+    gap: 24px; 
+    margin-bottom: 72px;
+}
+
+.listtt {
+    display: flex;
+    flex-wrap: wrap; 
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.spisok {
+    width: calc((100% - 48px) / 3);
+}
+
+
+.konta {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
